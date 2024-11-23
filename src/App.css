@@ -20,14 +20,14 @@
 }
 
 .app-name {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   color: #ECDFCC;
 }
 
 @media  screen and (min-width: 767px) {
   .app-name {
-    font-size: 44px;
+    font-size: 34px;
   }
 }
 
@@ -35,17 +35,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
   background-color: #3C3D37;
 }
 
 
 .form-group {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -59,19 +59,19 @@
 
 @media screen and (min-width: 767px) {
   .form-label {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
 .form-control {
   padding: 6px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 8px;
 }
 
 @media screen and (min-width: 767px) {
   .form-control {
-    font-size: 28px;
+    font-size: 22px;
     padding: 12px;
     border-radius: 12px;
   }
@@ -89,7 +89,7 @@
 
 @media screen and (min-width: 767px) {
   .submit-btn {
-    font-size: 26px;
+    font-size: 18px;
     padding: 12px 20px;
   }
 }
@@ -101,7 +101,7 @@
 
 @media screen and (min-width: 767px) {
   .list-heading {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -109,7 +109,7 @@
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   gap: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0)
@@ -118,7 +118,7 @@
 
 @media screen and (min-width: 767px) {
   .tasklist-container {
-    padding: 30px;
+    padding: 20px;
   }
 }
 
@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 767px) {
   .task-card-container {
-    padding:12px;
+    padding:10px;
     border-radius: 20px;
   }
 }
@@ -166,12 +166,8 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 767px) {
-  
-}
-
 .edit-label {
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 6px;
   font-weight: 500;
   color: #ECDFCC;
@@ -179,19 +175,19 @@
 
 @media screen and (min-width: 767px) {
   .edit-label {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
 .edit-control {
   padding: 6px;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 8px;
 }
 
 @media screen and (min-width: 767px) {
   .edit-control {
-    font-size: 28px;
+    font-size: 24px;
     padding: 12px;
     border-radius: 12px;
   }
@@ -209,7 +205,7 @@
 
 @media screen and (min-width: 767px) {
   .edit-submit-btn {
-    font-size: 26px;
+    font-size: 20px;
     padding: 12px 20px;
   }
 }
@@ -237,25 +233,25 @@
 }
 
 card-title {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 6px;
 }
 
 @media screen and (min-width: 767px) {
   .card-title {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
 card-text {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 6px;
 }
 
 @media screen and (min-width: 767px) {
   .card-text {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
@@ -273,7 +269,7 @@ card-text {
 
 .card-btn {
   padding: 6px 10px;
-  font-size: 22px;
+  font-size: 18px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -284,7 +280,7 @@ card-text {
 @media screen and (min-width: 767px) {
   .card-btn {
     padding: 12px 20px;
-    font-size: 28px;
+    font-size: 20px;
     border-radius: 10px;
   }
 }
